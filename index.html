@@ -1,0 +1,72 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Academia del Helado — Kit del Heladero: formulación, costos y métricas</title><meta name="description" content="Tres herramientas de Excel y una guía para formular, costear y controlar tu heladería artesanal. Hechas por un ingeniero agroindustrial. USD 24, garantía de 7 días.">
+<meta property="og:title" content="Academia del Helado — Kit del Heladero: formulación, costos y métricas"><meta property="og:description" content="Tres herramientas de Excel y una guía para formular, costear y controlar tu heladería artesanal. Hechas por un ingeniero agroindustrial. USD 24, garantía de 7 días."><meta property="og:type" content="website"><meta property="og:image" content="https://juanjrodmar.github.io/academia-helado/assets/og.webp"><meta property="og:url" content="https://juanjrodmar.github.io/academia-helado/"><meta property="og:locale" content="es_CO"><meta name="twitter:card" content="summary_large_image"><link rel="canonical" href="https://juanjrodmar.github.io/academia-helado/"><link rel="alternate" hreflang="es" href="https://juanjrodmar.github.io/academia-helado/"><link rel="alternate" hreflang="en" href="https://juanjrodmar.github.io/academia-helado/en/"><link rel="alternate" hreflang="x-default" href="https://juanjrodmar.github.io/academia-helado/">
+<link rel="icon" href="assets/favicon.png"><link rel="stylesheet" href="assets/styles.css">
+</head><body><a class="skip" href="#main">Saltar al contenido</a>
+<header class="site-head"><div class="wrap"><a class="brand" href="./"><img src="assets/favicon.png" width="34" height="34" alt="">Academia del Helado</a>
+<nav aria-label="Principal"><ul><li><a href="#kit">El kit</a></li><li><a href="#prueba">Prueba</a></li><li><a href="#autor">Autor</a></li><li><a href="#afiliados">Afiliados</a></li><li><a class="lang" href="en/" hreflang="en" lang="en">EN</a></li></ul></nav></div></header>
+<main id="main">
+<section class="hero" aria-labelledby="h1"><div class="wrap">
+<div><span class="kicker">Academia del Helado</span><h1 id="h1">Ciencia, costos y negocio del helado artesanal</h1></div>
+<p class="lead">Tres herramientas de Excel y una guía para formular, costear y controlar tu heladería. Hechas por un ingeniero agroindustrial.</p>
+<div class="cta-row"><a class="btn btn-primary" href="https://go.hotmart.com/A107738603G" rel="noopener">Ver el Kit del Heladero · USD 24</a><a class="btn btn-ghost" href="https://drive.google.com/drive/folders/14nVIyK3vlP0NcxDK24ijwlzdwBFuZZXl?usp=sharing" rel="noopener">Probar la calculadora gratis</a></div>
+<ul class="trust"><li>Garantía de 7 días</li><li>Excel y Google Sheets</li><li>Cualquier moneda</li><li>Sin experiencia previa</li></ul>
+</div></section>
+
+<section id="kit" aria-labelledby="h-kit"><div class="wrap">
+<span class="kicker">El kit</span><h2 id="h-kit">Tres preguntas que todo heladero se hace</h2>
+<p style="max-width:60ch;color:var(--ink-soft)">Cada herramienta responde una. Y se conectan: lo que calculas en una pasa a la siguiente.</p>
+<div class="questions">
+<article class="q"><div class="q-text"><span class="q-num" aria-hidden="true">1</span><h3>¿Mi mezcla está bien formulada?</h3><p>Escribe los gramos de cada ingrediente y obtén grasa, sólidos lácteos no grasos, azúcares y sólidos totales, con semáforo según el tipo de helado: premium, gelato, sorbete y más.</p></div>
+<figure class="shot"><img src="assets/formulacion.webp" width="821" height="816" loading="lazy" alt="Hoja de formulación con los resultados de una crema en verde"><figcaption>Calculadora de formulación: ejemplo de crema, todo en verde.</figcaption></figure></article>
+<article class="q"><div class="q-text"><span class="q-num" aria-hidden="true">2</span><h3>¿Cuánto me cuesta y a cómo vendo?</h3><p>Costo por litro, precio recomendado para cada formato (pint, vasito, cono, balde) y el punto de equilibrio de tu negocio: cuántos litros debes vender para no perder.</p></div>
+<figure class="shot"><img src="assets/precio.webp" width="1100" height="587" loading="lazy" alt="Hoja de precio de venta con el precio recomendado por formato"><figcaption>Costos y precio: el costo por litro pasa solo al cálculo de precios.</figcaption></figure></article>
+<article class="q"><div class="q-text"><span class="q-num" aria-hidden="true">3</span><h3>¿Mi negocio va bien?</h3><p>Diez métricas mensuales con semáforo automático: margen, merma, rotación, punto de equilibrio alcanzado y más. Empieza con tres si diez son muchas.</p></div>
+<figure class="shot"><img src="assets/dashboard.webp" width="1100" height="447" loading="lazy" alt="Dashboard mensual con celdas en verde, amarillo y rojo"><figcaption>Dashboard mensual: el color aparece solo al escribir el valor.</figcaption></figure></article>
+</div></div></section>
+
+<section id="prueba" class="alt" aria-labelledby="h-prueba"><div class="wrap">
+<span class="kicker">Pruébalo ahora</span><h2 id="h-prueba">Recargo del 60 % no es margen del 60 %</h2>
+<p style="max-width:62ch">Es el error de precios más común. Mueve los controles y mira el margen bruto real. Es la misma fórmula de la hoja «Precio de Venta» del kit.</p>
+<div class="calc"><div class="panel">
+<div class="field"><label for="markup"><span>Recargo sobre el costo</span><output id="markup-out" for="markup">60 %</output></label><input id="markup" type="range" min="20" max="300" step="5" value="60"></div>
+<div class="field"><label for="sell"><span>Gastos de venta (% del precio)</span><output id="sell-out" for="sell">5 %</output></label><input id="sell" type="range" min="0" max="15" step="1" value="5"></div>
+<p class="note">Margen bruto = 1 − (1 − gastos de venta) ÷ (1 + recargo). Referencia de un negocio sano: 55–65 %.</p></div>
+<div class="result" id="result" data-state="bad" aria-live="polite"><span>Tu margen bruto real</span><span class="big" id="margin-out">41 %</span><span class="verdict" id="verdict">—</span><div class="meter" aria-hidden="true"><i id="meter"></i></div></div></div>
+</div></section>
+
+<section aria-labelledby="h-inc"><div class="wrap">
+<span class="kicker">Qué incluye</span><h2 id="h-inc">Un kit, cuatro archivos</h2>
+<ul class="includes"><li><strong>Calculadora de formulación</strong>Hoja en blanco, ejemplo de crema y de sorbete resueltos, y selector de tipo de helado.</li>
+<li><strong>Costos y precio</strong>Costo por litro, precio por formato y punto de equilibrio, enlazados entre sí.</li>
+<li><strong>Dashboard mensual</strong>Diez métricas con semáforo automático y comparación con el mes anterior.</li>
+<li><strong>Guía en PDF</strong>Cinco páginas con ejemplos resueltos paso a paso.</li></ul>
+<div class="price-band"><div><h3>Kit del Heladero</h3><p style="margin:0;color:#d1e1e3">Pago único · Garantía de 7 días · Excel y Google Sheets</p></div><div style="display:grid;gap:.8rem;justify-items:start"><span class="price">USD 24</span><a class="btn btn-primary" href="https://go.hotmart.com/A107738603G" rel="noopener">Comprar en Hotmart</a></div></div>
+</div></section>
+
+<section id="autor" class="alt" aria-labelledby="h-autor"><div class="wrap author">
+<div class="monogram" aria-hidden="true"><span>JR</span></div>
+<div><span class="kicker">Quién lo hizo</span><h2 id="h-autor">Juan José Rodríguez Marín</h2>
+<p>Ingeniero agroindustrial, MSc. en Bioingeniería y docente universitario. Las herramientas nacen de los mismos criterios que usa para enseñar formulación y costos de helado. Los rangos de referencia se basan en Goff &amp; Hartel, <em>Ice Cream</em> (7.ª ed., Springer, 2013).</p>
+<p class="note">Las herramientas calculan y orientan. La inocuidad y las normas sanitarias de tu país siguen siendo tu responsabilidad.</p></div></div></section>
+
+<section aria-labelledby="h-faq"><div class="wrap"><div style="max-width:820px">
+<span class="kicker">Dudas</span><h2 id="h-faq">Preguntas frecuentes</h2>
+<details><summary>¿Funciona en Excel y en Google Sheets?</summary><p>Sí. Súbelo a Drive y ábrelo con Hojas de cálculo. Si ves alguna diferencia de formato, casi todas las fórmulas funcionan igual.</p></details>
+<details><summary>¿Sirve en mi moneda?</summary><p>Sí. Usa una sola moneda en todo el archivo; los objetivos monetarios se expresan como porcentaje del precio.</p></details>
+<details><summary>¿Necesito saber de formulación?</summary><p>No. Sigue el ejemplo resuelto y cambia un ingrediente a la vez; el semáforo te dice si te acercas al rango.</p></details>
+<details><summary>¿Y si no me sirve?</summary><p>Tienes 7 días de garantía en Hotmart.</p></details>
+<details><summary>¿Hay versión en inglés?</summary><p>Sí: <a href="en/" hreflang="en">Ice Cream Maker's Toolkit</a>.</p></details>
+</div></div></section>
+
+<section id="afiliados" class="aff" aria-labelledby="h-aff"><div class="wrap">
+<span class="kicker">Programa de afiliados</span><h2 id="h-aff">¿Tienes público de heladería o de emprendimiento?</h2>
+<p>Recomienda el kit con tu enlace de afiliado de Hotmart y gana el 50 % de cada venta (unos USD 10,56), con cookie permanente. Te damos textos, imágenes y una copia de prueba.</p>
+<a class="btn btn-primary" href="https://affiliate.hotmart.com/affiliate-recruiting/view/8807K107738624" rel="noopener">Ver la propuesta para afiliados</a>
+</div></section>
+</main>
+<footer><div class="wrap"><p style="margin:0">© 2026 Academia del Helado · Juan José Rodríguez Marín. Compras y soporte a través de <a href="https://go.hotmart.com/A107738603G" rel="noopener">Hotmart</a>.</p></div></footer>
+<script type="application/json" id="i18n">{"sep": " ", "ok": "Margen sano", "mid": "Margen ajustado", "bad": "Margen bajo"}</script>
+<script src="assets/app.js" defer></script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Product", "name": "Kit del Heladero: Formulación, Costos y Métricas", "description": "Tres herramientas de Excel y una guía en PDF para heladerías artesanales.", "brand": {"@type": "Brand", "name": "Academia del Helado"}, "offers": {"@type": "Offer", "price": "24.00", "priceCurrency": "USD", "url": "https://go.hotmart.com/A107738603G", "availability": "https://schema.org/InStock"}}</script>
+</body></html>
