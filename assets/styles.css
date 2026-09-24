@@ -120,3 +120,18 @@ figure{margin:0}
 .shot img{width:100%}
 .wrap{overflow-wrap:anywhere}
 .includes li{min-width:0}
+
+/* ecosistema */
+.eco-grid{display:grid;gap:1.1rem;grid-template-columns:repeat(auto-fit,minmax(min(100%,15.5rem),1fr));margin-top:1.6rem}
+.eco-card{display:flex;flex-direction:column;background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:1.4rem 1.3rem 1.3rem}
+.eco-card h3{font-size:var(--step-1);margin-bottom:.5rem}
+.eco-card p{color:var(--ink-soft);font-size:var(--step--1);flex:1}
+.eco-tag{font:700 .72rem/1 var(--font-sans);letter-spacing:.18em;text-transform:uppercase;color:var(--amber-deep);margin-bottom:.7rem}
+.eco-price{font:700 1.6rem var(--font-serif);color:var(--teal);margin:.3rem 0 .9rem}
+.eco-price s{font:400 1rem var(--font-sans);color:var(--ink-soft);margin-left:.4rem}
+.eco-card .btn{justify-content:center;padding:.75rem 1rem}
+.eco-card.eco-best{background:var(--teal);border-color:var(--teal-deep)}
+.eco-card.eco-best h3,.eco-card.eco-best .eco-price{color:#fff}
+.eco-card.eco-best p{color:rgba(255,255,255,.85)}
+.eco-card.eco-best .eco-tag{color:var(--amber)}
+.eco-card.eco-best .eco-price s{color:rgba(255,255,255,.65)}
